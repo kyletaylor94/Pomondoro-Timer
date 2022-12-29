@@ -13,9 +13,15 @@
 		C01C134E295304F400EFF8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01C134C295304F400EFF8A8 /* Main.storyboard */; };
 		C01C1350295304F500EFF8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01C134F295304F500EFF8A8 /* Assets.xcassets */; };
 		C01C1353295304F500EFF8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01C1351295304F500EFF8A8 /* LaunchScreen.storyboard */; };
+		C07B20E2295C22A400E858DA /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C07B20DF295C22A400E858DA /* OFL.txt */; };
+		C07B20E3295C22A400E858DA /* JosefinSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C07B20E0295C22A400E858DA /* JosefinSans-VariableFont_wght.ttf */; };
+		C07B20E4295C22A400E858DA /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C07B20E1295C22A400E858DA /* JosefinSans-Italic-VariableFont_wght.ttf */; };
+		C08ADDC82956113F00B77C71 /* C-felso.wav in Resources */ = {isa = PBXBuildFile; fileRef = C08ADDC72956113F00B77C71 /* C-felso.wav */; };
+		F2534A278504F186CA077CB8 /* Pods_Pomondoro_timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9A8FA118BB2BA897272B92 /* Pods_Pomondoro_timer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68EB258BC3EAB921013414DA /* Pods-Pomondoro timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomondoro timer.debug.xcconfig"; path = "Target Support Files/Pods-Pomondoro timer/Pods-Pomondoro timer.debug.xcconfig"; sourceTree = "<group>"; };
 		C01C1343295304F400EFF8A8 /* Pomondoro timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pomondoro timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C01C1346295304F400EFF8A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C01C1348295304F400EFF8A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,12 @@
 		C01C134F295304F500EFF8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C01C1352295304F500EFF8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C01C1354295304F500EFF8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07B20DF295C22A400E858DA /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		C07B20E0295C22A400E858DA /* JosefinSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C07B20E1295C22A400E858DA /* JosefinSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		C08ADDC72956113F00B77C71 /* C-felso.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "C-felso.wav"; sourceTree = "<group>"; };
+		DD9A8FA118BB2BA897272B92 /* Pods_Pomondoro_timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pomondoro_timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA486F442CE3F0F0AE5B0357 /* Pods-Pomondoro timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomondoro timer.release.xcconfig"; path = "Target Support Files/Pods-Pomondoro timer/Pods-Pomondoro timer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2534A278504F186CA077CB8 /* Pods_Pomondoro_timer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DBA2B0C30FBC6678B463005 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD9A8FA118BB2BA897272B92 /* Pods_Pomondoro_timer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C01C133A295304F400EFF8A8 = {
 			isa = PBXGroup;
 			children = (
+				C07B20DE295C21F000E858DA /* Fonts */,
 				C01C1345295304F400EFF8A8 /* Pomondoro timer */,
 				C01C1344295304F400EFF8A8 /* Products */,
+				EC89EFAF6BA9CA95C0103E7A /* Pods */,
+				7DBA2B0C30FBC6678B463005 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +80,7 @@
 		C01C1345295304F400EFF8A8 /* Pomondoro timer */ = {
 			isa = PBXGroup;
 			children = (
+				C08ADDC72956113F00B77C71 /* C-felso.wav */,
 				C01C1346295304F400EFF8A8 /* AppDelegate.swift */,
 				C01C1348295304F400EFF8A8 /* SceneDelegate.swift */,
 				C01C134A295304F400EFF8A8 /* ViewController.swift */,
@@ -67,6 +92,25 @@
 			path = "Pomondoro timer";
 			sourceTree = "<group>";
 		};
+		C07B20DE295C21F000E858DA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C07B20E1295C22A400E858DA /* JosefinSans-Italic-VariableFont_wght.ttf */,
+				C07B20E0295C22A400E858DA /* JosefinSans-VariableFont_wght.ttf */,
+				C07B20DF295C22A400E858DA /* OFL.txt */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		EC89EFAF6BA9CA95C0103E7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68EB258BC3EAB921013414DA /* Pods-Pomondoro timer.debug.xcconfig */,
+				FA486F442CE3F0F0AE5B0357 /* Pods-Pomondoro timer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01C1357295304F500EFF8A8 /* Build configuration list for PBXNativeTarget "Pomondoro timer" */;
 			buildPhases = (
+				623375B6E0BBB47AFB7C3A39 /* [CP] Check Pods Manifest.lock */,
 				C01C133F295304F400EFF8A8 /* Sources */,
 				C01C1340295304F400EFF8A8 /* Frameworks */,
 				C01C1341295304F400EFF8A8 /* Resources */,
+				60954AB51F64B03B21006020 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +171,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C07B20E2295C22A400E858DA /* OFL.txt in Resources */,
+				C07B20E4295C22A400E858DA /* JosefinSans-Italic-VariableFont_wght.ttf in Resources */,
+				C08ADDC82956113F00B77C71 /* C-felso.wav in Resources */,
 				C01C1353295304F500EFF8A8 /* LaunchScreen.storyboard in Resources */,
 				C01C1350295304F500EFF8A8 /* Assets.xcassets in Resources */,
 				C01C134E295304F400EFF8A8 /* Main.storyboard in Resources */,
+				C07B20E3295C22A400E858DA /* JosefinSans-VariableFont_wght.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60954AB51F64B03B21006020 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pomondoro timer/Pods-Pomondoro timer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pomondoro timer/Pods-Pomondoro timer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pomondoro timer/Pods-Pomondoro timer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		623375B6E0BBB47AFB7C3A39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pomondoro timer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C01C133F295304F400EFF8A8 /* Sources */ = {
@@ -282,6 +374,7 @@
 		};
 		C01C1358295304F500EFF8A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68EB258BC3EAB921013414DA /* Pods-Pomondoro timer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +403,7 @@
 		};
 		C01C1359295304F500EFF8A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA486F442CE3F0F0AE5B0357 /* Pods-Pomondoro timer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
